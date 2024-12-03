@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNO - Juego Multijugador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Juego UNO - Multijugador</h1>
+        <div id="player-hand" class="hand"></div>
+        <div id="deck-container">
+            <h2>Pila de cartas</h2>
+            <div id="current-card" class="current-card"></div>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
